@@ -2,6 +2,6 @@
 ekki alveg búinn, kenni sql um
 
 ### POWER USER
-Username: -_admin_-
+Username: _admin_
 
-Password: -_1234_-
+Password: _1234_
