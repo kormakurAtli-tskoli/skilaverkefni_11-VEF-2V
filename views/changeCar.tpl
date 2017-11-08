@@ -11,23 +11,24 @@
 	<a href="utskra"><div class="signup"><h3>Sign out!</h3></div></a>
 	</fieldset>
 </form><br><br><br><br><br>
-<form action="/resultsAdmin" method="post">
+<form action="/changeCar" method="post">
 	<fieldset>
 	<legend><h2>Leita að bíl</h2></legend>
 	<input type="text" name="fastanr" placeholder="Fastanúmer bíls" title="AB-123 eða AB-C12" required><br>
 	<input type="submit" value="Leita">
 	</fieldset>
 </form>
-<h3>Upplýsingar<h3>
+<h3 style="text-align:center;">Upplýsingar<h3>
 <form action="/changeCar" method="post">
 	<input type="text" name="fastanr" placeholder="Fastanúmer: {{a}}" required><br>
-	<input type="text" name="tegund" placeholder="Tegund: {{b}}" required><br>
-	<input type="text" name="verksmidjunr" placeholder="Verksmiðjunúmer: {{c}}" required><br>
-	<input type="text" name="skraningardagur" placeholder="Skráningardagur: {{d}}" required><br>
-	<input type="text" name="co2" placeholder="CO2: {{e}}" required><br>
-	<input type="text" name="thyngd" placeholder="Þyngd: {{f}}" required><br>
-	<input type="text" name="skodun" placeholder="Skoðun: {{g}}" required><br>
-	<input type="text" name="stada" placeholder="Staða: {{h}}" required><br>
+	<input type="text" name="tegund" placeholder="Tegund: {{b}}"><br>
+	<input type="text" name="verksmidjunr" placeholder="Verksmiðjunúmer: {{c}}"><br>
+	<input type="text" name="skraningardagur" placeholder="Skráningardagur: {{d}}"><br>
+	<input type="text" name="co2" placeholder="CO2: {{e}}"><br>
+	<input type="text" name="thyngd" placeholder="Þyngd: {{f}}"><br>
+	<input type="text" name="skodun" placeholder="Skoðun: {{g}}"><br>
+	<input type="text" name="stada" placeholder="Staða: {{h}}"><br>
+	<input type="submit" value="Breyta">
 </form>
 </body>
 </html>

@@ -14,8 +14,6 @@ def sanitize(inputstr):
         '1,2',
         '\x00',
         '`',
-        '(',
-        ')',
         'file://',
         'input://'
     ]
